@@ -1,0 +1,82 @@
+
+.social-part .fa{
+  padding-right:20px;
+}
+ul li a{
+  margin-right: 20px;
+}
+/* Ensure that the dropdown menu is hidden initially */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: Add a transition for smoother appearance */
+.dropdown-menu {
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  opacity: 1;
+}
+a:hover{
+  border-bottom: 2px solid yellow;
+}
+/* .social-part { */
+  /* position: absolute; */
+  /* left: 80%;
+  margin-top: 5px; */
+/* } */
+
+#vodafone:hover{
+  border-radius: 1500px 300px ;
+}
+#vodafone{
+  border-radius: 5px 0px 300px ;
+}
+.card{
+  border-radius: 20px 50px;
+}
+#icon-hover:hover{
+  background-color: aqua;
+}
+.image-card img {
+  width: 100%;
+  height: 550px;
+}
+.carousel-item img{
+  width: 200px;
+  height: auto;
+}
+.custom-button {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  list-style: none;
+  
+}
+footer hr {
+  border-top: 1px solid #dee2e6;
+  margin-top: 20px;
+}
+@keyframes colorChange {
+  0% { color: rgb(212, 19, 19); }
+  20% { color: rgb(17, 229, 17); }
+  40% { color: rgb(30, 30, 205); }
+  60% { color: rgb(206, 33, 206); }
+  80% { color: rgb(4, 81, 81); }
+  100% { color: rgb(7, 197, 255); }
+}
+
+#color-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  animation: colorChange 3s infinite; /* Adjust timing as needed */
+}
+/* .navbar{
+  position: fixed;
+} */
